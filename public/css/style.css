@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+
+/* NAVBAR EJS */
+.container-fluid{
+    padding: 9px;
+    /* border-bottom: 2px solid red; */
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass-drafting{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+.navbar-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    font-weight: 600;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #222222 !important;
+    margin: 10px;
+    background-color: #effbff;
+    border: 1.5px solid #FE424D;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.nav-link:hover{
+    color: #fe424d !important;
+    border: 2px solid black !important;
+}
+/* footer */
+.f-info-link a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-link a:hover{
+    text-decoration: underline;
+}
+.f-info-link{
+    width: 100%;
+}
+.f-info-social{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.f-info-social i{
+    margin-right: 1rem;
+    color: black;
+}
+
+.f-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+    height: 8rem;
+    text-align: center;
+}
+
+/* for cards */
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+    background-color:#effbff !important;
+    /* border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important; */
+    border-radius: 1rem !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-body p{
+    font-weight: 400;
+}
+
+.listings-link{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+/* CARD EFFECT */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* new page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit button */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* Show image */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+/* for INDEX.EJS HEAD */
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+   color: black;
+   font-weight: 600 ;
+}
