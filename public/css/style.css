@@ -12,7 +12,6 @@ body{
 /* NAVBAR EJS */
 .container-fluid{
     padding: 9px;
-    /* border-bottom: 2px solid red; */
 }
 .navbar{
     height: 5rem;
@@ -24,10 +23,16 @@ body{
     font-size: 2rem;
 }
 
-.navbar-nav{
+.navbar-nav-1{
     width: 50%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.navbar-nav-2{
+    justify-content: end;
+    width: 50%;
+    display: flex;
 }
 .nav-link{
     font-weight: 600;
@@ -35,16 +40,18 @@ body{
     align-items: center;
     justify-content: center;
     color: #222222 !important;
-    margin: 10px;
-    background-color: #effbff;
-    border: 1.5px solid #FE424D;
-    border-radius: 10px;
-    width: 20%;
+    margin: 0.3rem;
+    padding: 0.4rem !important;
+    opacity: 0.8;
+}
+
+.navbar-brand{
+    font-size: 1.8rem !important;
 }
 
 .nav-link:hover{
-    color: #fe424d !important;
-    border: 2px solid black !important;
+    opacity: 1;
+    text-decoration: underline;
 }
 /* footer */
 .f-info-link a{
@@ -79,7 +86,7 @@ body{
 
 /* for cards */
 
-.card{
+.listing-card{
     border: none !important;
     margin-bottom: 2rem;
     background-color:#effbff !important;
@@ -118,6 +125,10 @@ body{
     background-color: white;
 }
 
+.edit-image{
+    height: 60vh;
+    width: 30vw;
+}
 
 /* new page */
 .add-btn{
@@ -135,20 +146,40 @@ body{
 /* Show image */
 
 .show-img{
-    height: 30vh;
+    height: 35vh;
 }
 
 .btns{
     display: flex;
 }
 
+/* .showstyl{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+} */
+
 /* for INDEX.EJS HEAD */
 
-.head{
+/* .head{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
    color: black;
    font-weight: 600 ;
+} */
+
+/* FLASH-CLASS */
+
+.flash-class{
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
 }
+
+
+
+
