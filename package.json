@@ -1,6 +1,6 @@
 {
-  "engines":{
-     "node": "18.16.1"
+  "engines": {
+    "node": "18.16.1"
   },
   "name": "project_1",
   "version": "1.0.0",
